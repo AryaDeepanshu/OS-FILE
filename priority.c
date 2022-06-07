@@ -6,9 +6,9 @@ int main(){
     scanf("%d", &n);
     int BT[n], process_ID[n], WT[n], TAT[n], priority[n];
  
-    printf("Enter Burst Time and Priority:");
+    printf("Enter Burst Time and Priority:\n");
     for(int i = 0; i < n; i++){
-        printf("process %d:", i+1);
+        printf("Forprocess %d:", i+1);
         scanf("%d %d", &BT[i], &priority[i]);
         process_ID[i] = i+1;         
     }
@@ -57,9 +57,8 @@ int main(){
     
     int avg_tat;
     avg_tat = total_tat/n;
-    
+    printf("Process \t priority \t Burst Time \t Waiting Time \t Turnaround Time \n");
     for(int i = 0; i < n; i++){
-        printf("Process \t priority \t Burst Time \t Waiting Time \t Turnaround Time \n");
         printf("P[%d] \t\t %d \t\t %d \t\t %d \t\t %d \n",process_ID[i], priority[i] ,BT[i], WT[i], TAT[i]);
     }
     
