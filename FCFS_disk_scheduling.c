@@ -23,7 +23,6 @@ int main(){
         initial_head_position = RQ[i];
     }
 
-    printf("Total head moment is %d.", Total_Head_Moment);
+    printf("Total head moment is %d.\n", Total_Head_Moment);
     return 0;
-
 }
