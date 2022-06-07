@@ -33,6 +33,6 @@ int main(){
         count++;
     }
 
-    printf("Total head movement is %d", Total_Head_Moment);
+    printf("Total head movement is %d\n", Total_Head_Moment);
     return 0;
 }
