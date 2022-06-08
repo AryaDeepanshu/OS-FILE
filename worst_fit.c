@@ -1,3 +1,4 @@
+// WARNING: Wrong Output!!!
 #include<stdio.h>
 #define max 25
 void main(){
