@@ -39,4 +39,5 @@ void main(){
     printf("\nFile_no:\tFile_size :\tBlock_no:\tBlock_size:\tFragement");
     for(i=1;i<=nf;i++)
         printf("\n%d\t\t%d\t\t%d\t\t%d\t\t%d",i,f[i],ff[i],b[ff[i]],frag[i]);
+    printf("\n");
 }
